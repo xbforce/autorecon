@@ -47,7 +47,9 @@ example.com/
 *.example.com/
 ```
 
-Inscope targets should be written as the following:
+Inscope targets should be written as the following in a file:
+```$ nano inscope_domains```
+
 ```
 example.com
 target.org
@@ -55,8 +57,7 @@ target.org
 
 The Usage would be:
 ```
-kali@kali# autorecon.sh channel1
-kali@kali# autorecon.sh channel2
+kali@kali# autorecon.sh inscope_domains
 ```
 
 
@@ -80,5 +81,5 @@ demo.example.com
 
 In this case the usage would be:
 ```
-kali@kali# autorecon channel1 outscope_subdomains.txt
+kali@kali# autorecon inscope_domains outscope_subdomains.txt
 ```
