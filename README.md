@@ -1,7 +1,7 @@
 # autorecon
 
 Autorecon automates tools and techniques to find subdomains.
-In addition to amass, subfinder, sublist3r and assetfinder, this tool does brute force, zone transfer and check crt.sh website to gather more subdomains.
+In addition to amass, subfinder, sublist3r and assetfinder, this tool uses zone transfer and check crt.sh website to gather more subdomains.
 Autorecon uses httpx to recognize alive subdomains.
 
 
